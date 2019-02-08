@@ -1,0 +1,134 @@
+body{
+  background: url("http://www.preposterousuniverse.com/blog/wp-content/uploads/2013/01/Everyday-Equation.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.list-group-item{
+  margin-bottom: 5px;
+  background: rgba(10, 206, 206, .7);
+  color: white;
+  border: none;
+}
+
+.list-group-item:first-of-type,
+.list-group-item:last-of-type{
+  border-radius: 0px;
+}
+
+.list-group-item.active{
+  background: rgba(12,12,76,.7);
+}
+
+.list-group-item:hover{
+  background: rgba(255,255,255,.7);
+  cursor: pointer;
+}
+
+.card{
+  padding: 30px 30px 30px 30px;
+  width: auto;
+  max-height: calc(100vh - 40px);
+    overflow-y: scroll;
+}
+
+.card img{
+width: 30%;
+margin: 50px auto 20px auto;
+border-radius: 50%;
+}
+
+.card .card-title{
+  color: #333;
+  text-align: center;
+}
+
+.card .card-title span{
+  color: rgba(10, 206, 206, .7);
+}
+
+.card h4{
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+
+.card .btn-primary {
+  background-color: rgba(10, 206, 206, .7);
+  border: none;
+  margin: 5px;
+}
+
+.social-network-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-network-wrapper .social-icon{
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.social-network-wrapper .social-icon.facebook{
+  background-image:url("https://image.flaticon.com/icons/png/512/69/69407.png");
+}
+
+.social-network-wrapper .social-icon.twitter{
+  background-image:url("https://image.flaticon.com/icons/png/512/23/23931.png");
+}
+
+.social-network-wrapper .social-icon.linkedin{
+  background-image:url("https://image.flaticon.com/icons/png/512/34/34227.png");
+}
+
+.social-network-wrapper .social-icon.instagram{
+  background-image:url("https://cdn3.iconfinder.com/data/icons/transparent-on-dark-grey/500/icon-04-512.png");
+}
+
+.social-network-wrapper .social-icon.youtube{
+  background-image:url("https://user-images.githubusercontent.com/8548846/29327284-a45eca10-81bc-11e7-8b0d-286568873dfb.png");
+}
+
+.social-network-wrapper .social-icon:not(:first-of-type){
+  margin-left: 5px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.content-wrapper{
+  border-style: solid;
+  padding: 10px 10px 10px 10px;
+  color: black;
+}
+
+.section-header{
+  text-align: center;
+  padding: 15px;
+}
+
+div div h1{
+  float: inherit;
+  text-align: center;
+}
